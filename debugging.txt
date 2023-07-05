@@ -1,0 +1,61 @@
+DEFINITION OF DEBUGGING
+Debugging is the process of finding and solving errors in code.
+
+DEFINITION OF A BUG
+A bug is an error in code that prevents it in the way it was intended.
+
+A BUG IS A GLITCH THAT PREVENTS THE PROGRAM FROM ACHIEVING DESIRED OUTPUT
+
+TYPES OF ERRORS
+A)Syntax errors:
+these occur when the code does not follow the syntactical rules eg "<div classhome><div>",
+ mistyping/mispelling/incorrect usage of variables, functions and statements.
+
+B)Logic/Logical errors:
+these occur when the steps taken to perform the task correctly are not well done eg an infinite loop.
+
+C.)Design bugs:
+this is a bug that is carried from the designers to the actual implementation of the code.
+this is a bug caused by poor and/or inadequate design decisions.eg poor user interface(UI), WRONG DATATYPES.
+
+D.)Runtime errors:
+these errors cannot be noticed until the code has actually been run eg dividing with a null value,
+dividing a number by 0, adding/subtracting a string by an integer
+
+WHY DEBUG?
+-To remove errors from code
+-To save resources(time and money)
+-Enables the developers to improve productivity and efficiency
+
+HOW DO WE DEBUG?
+ THE 5P's
+Prior
+Planning 
+Prevents 
+Poor
+performance
+
+DEBUGGING PRINCIPLES:
+=>Bugs caught early,right after you've made them are the easiest to fix because the details are fresh in your
+mind and you know exactly where to look
+
+=>Once bugs escape they become very hard to find ie since you most likely dont have the details 
+of the code in your mind and the code base has grown
+
+THE DEBUGGING CYCLE
+1.Code
+2.Test 
+3.Then repeat
+
+THE BUGG SEEKING CYCLE
+The difference btn debugging and testing
+-Debugging is what can i do to fix erronuous code while testing is what i need to do to break my code.
+
+STEPS OF Debugging
+1.Plan your attack
+2.Backup your files(interchangable) using version control / using git hub to keep track of changes in my software
+3.Isolate the block of code that could have the error ie commenting it
+4.Finding the actual line / lines with the error or buggs
+5.Fix the error don't patch it 
+6.Test the fix you have just done 
+7.Look for similar buggs
