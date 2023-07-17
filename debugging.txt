@@ -59,3 +59,49 @@ STEPS OF Debugging
 5.Fix the error don't patch it 
 6.Test the fix you have just done 
 7.Look for similar buggs
+
+OTHER STEPS AND STRATEGIES:
+=>REPRODUCIBILITY
+   - The first step is to be able to reproduce the bug.
+    Understand the cause and effect before you change the code.
+
+=>REDUCTION
+    -finding the simplest test that exibits the bug ie reduce the search space because bugs are not random
+    they come from somewhere within the code
+
+=>DEDUCTION
+    -Undestanding what the program is doing, since you cannot be able to know there is a bug if you dont know what the 
+    code is actually supposed to be doing.
+
+=>PAIR PROGRAMMING
+    -Someone else maybe able to see wrong assumptions or mistakes you may have made.
+    -Helps you to explain and understand what you are trying to achieve with your code.
+
+=>LEVERAGING EXPERIENCE FROM OTHERS
+    -Seeking solutions from more experienced programmers
+
+PREVENTIVE MEASURES TO AVOID BUGGS
+1.Write clean and easy to read code ie indenting your Code and writing dry code(do not repeat yourself)
+2.Commenting, helps you undestand what you are trying to achieve with which parts of your code 
+3.Make one change at a time
+4.Test your code:
+    ->The unit test:
+        test functional blocks of your code
+    ->The intergration test:
+        testing the interaction btn the functional blocks of your code
+    ->The test with valid and invalid data:
+        testing if your code runs with invalid data 
+5.Defensive programming by adding error checking code and throwing exceptions
+6.Prioritising which features can't be ommited
+7.Incubating(sleeping)
+8.Brainstorming
+
+DEBUGGING TOOLS
+*Break points;
+      ->These help you to see which part of the code is carrying the bugg.
+*Linting/lints
+NB:
+ITS USEFFULE TO USE THE PRINT STATEMENT (console.log)
+
+ASSIGNMENT:
+RESEARCH AND USE A DEBUGGING TOOL OF CHOICE

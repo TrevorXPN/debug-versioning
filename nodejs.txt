@@ -1,0 +1,3 @@
+WHAT ARE SERVERS?
+-A computer that provides services or functionslity to other computers.
+-A server responds to a request by a client that is to say another computer.

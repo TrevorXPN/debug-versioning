@@ -1,0 +1,5 @@
+CIA MODLE:
+0=> These are three principles that work together to provide a comprehensive aprroach to application security.
+=>C - Confidenciality - No unauthorised accesseg encryption-turning txt into an unreadable formate called ciphertext,
+=>I - Integrity - No unauthorised modification
+=>A - Accessibility - Authorised access
