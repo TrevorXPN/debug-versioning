@@ -1,3 +1,15 @@
 WHAT ARE SERVERS?
 -A computer that provides services or functionslity to other computers.
 -A server responds to a request by a client that is to say another computer.
+-A server is simply a computer that has the ability to respond to 
+
+NB:
+-Data bases do not store files rather they store text.
+
+HOW THE BROWSER INTERACTS WITH THE SEVERS?
+1.User enters the URL(Uniform resource Locator) of the website of file. The Browser then requests the DNS (Domain Name System)server
+2.The DNS Server looks up the IP address if the WEB SEVER
+3.DNS Server then respons with the IP address of the WEB S erver.
+4.Browser sends an HTTP Request message asking for data from the web page on the Web Server
+5.Server then responds with the appropriate  files necessary for the website.
+6.The browser then processes withe the help if DOM INTERPRETER ,cSS interpreter and JS Engine collectively known as JIT      
